@@ -1,0 +1,152 @@
+/* =========================================================
+   USMAN DENTAL STUDIO — admin.css
+   Extends the tokens/variables defined in style.css
+   ========================================================= */
+
+body.admin-body {
+  background: var(--ink);
+  min-height: 100vh;
+}
+
+/* ---------- Login screen ---------- */
+.admin-login-wrap {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+.admin-login-card {
+  width: 100%;
+  max-width: 380px;
+  background: var(--surface);
+  border: 1px solid var(--hairline);
+  padding: 40px 34px;
+}
+.admin-login-card .mark {
+  width: 40px; height: 40px;
+  border: 1px solid var(--gold);
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  color: var(--gold);
+  font-family: var(--font-display);
+  margin-bottom: 18px;
+}
+.admin-login-card h1 {
+  font-size: 1.5rem;
+  margin-bottom: 6px;
+}
+.admin-login-card p.sub {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-bottom: 26px;
+}
+
+/* ---------- Dashboard shell ---------- */
+.admin-shell { display: flex; min-height: 100vh; }
+
+.admin-sidebar {
+  width: 240px;
+  flex-shrink: 0;
+  background: var(--surface);
+  border-right: 1px solid var(--hairline);
+  padding: 26px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.admin-sidebar .brand {
+  display: flex; align-items: center; gap: 10px;
+  font-family: var(--font-display); font-size: 1.1rem;
+  margin-bottom: 34px;
+}
+.admin-sidebar .brand .mark {
+  width: 28px; height: 28px;
+  border: 1px solid var(--gold); border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  color: var(--gold); font-size: 0.8rem;
+}
+.admin-nav { list-style: none; padding: 0; margin: 0; flex: 1; }
+.admin-nav li { margin-bottom: 4px; }
+.admin-nav a {
+  display: flex; align-items: center; gap: 10px;
+  color: var(--muted); font-size: 0.9rem;
+  padding: 10px 12px; border-radius: var(--radius);
+}
+.admin-nav a.active, .admin-nav a:hover { color: var(--gold); background: rgba(198,161,91,0.08); }
+.admin-sidebar .logout-btn {
+  color: var(--muted); font-size: 0.85rem;
+  border: 1px solid var(--hairline);
+  padding: 10px 12px; text-align: left; background: transparent;
+}
+.admin-sidebar .logout-btn:hover { border-color: var(--gold); color: var(--gold); }
+
+.admin-main { flex: 1; padding: 34px 36px; overflow-x: hidden; }
+.admin-header { display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 26px; flex-wrap: wrap; gap: 16px; }
+.admin-header h1 { font-size: 1.7rem; margin-bottom: 4px; }
+.admin-header p { color: var(--muted); font-size: 0.9rem; margin: 0; }
+
+.admin-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px,1fr)); gap: 16px; margin-bottom: 30px; }
+.admin-stat-card {
+  background: var(--surface); border: 1px solid var(--hairline);
+  padding: 18px 20px;
+}
+.admin-stat-card .num { font-family: var(--font-display); font-size: 1.9rem; color: var(--gold-bright); }
+.admin-stat-card .lbl { font-size: 0.78rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-top: 4px; }
+
+/* ---------- Table ---------- */
+.admin-toolbar { display: flex; gap: 10px; margin-bottom: 16px; flex-wrap: wrap; align-items: center; justify-content: space-between; }
+.filter-pills { display: flex; gap: 8px; flex-wrap: wrap; }
+.filter-pill {
+  border: 1px solid var(--hairline); background: transparent; color: var(--muted);
+  font-size: 0.78rem; letter-spacing: 0.04em; text-transform: uppercase;
+  padding: 7px 14px; border-radius: 20px;
+}
+.filter-pill.active { border-color: var(--gold); color: var(--gold); }
+
+.admin-table-wrap {
+  background: var(--surface);
+  border: 1px solid var(--hairline);
+  overflow-x: auto;
+}
+table.admin-table { width: 100%; border-collapse: collapse; min-width: 820px; }
+table.admin-table thead th {
+  text-align: left; font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--muted); padding: 14px 16px; border-bottom: 1px solid var(--hairline);
+}
+table.admin-table tbody td {
+  padding: 14px 16px; border-bottom: 1px solid var(--hairline);
+  font-size: 0.88rem; color: var(--ivory); vertical-align: middle;
+}
+table.admin-table tbody tr:last-child td { border-bottom: none; }
+table.admin-table tbody tr:hover { background: rgba(198,161,91,0.04); }
+.cell-muted { color: var(--muted); font-size: 0.82rem; }
+
+.status-badge {
+  display: inline-block; padding: 4px 12px; border-radius: 20px;
+  font-size: 0.72rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600;
+}
+.status-badge.pending { background: rgba(198,161,91,0.15); color: var(--gold-bright); }
+.status-badge.confirmed { background: rgba(46,115,100,0.25); color: #6FD6BC; }
+.status-badge.cancelled { background: rgba(180,85,63,0.2); color: #E29684; }
+
+.status-select {
+  background: var(--ink); border: 1px solid var(--hairline); color: var(--ivory);
+  font-size: 0.82rem; padding: 6px 10px; border-radius: var(--radius);
+}
+.status-select:focus { outline: none; border-color: var(--gold); }
+
+.icon-btn {
+  background: transparent; border: 1px solid var(--hairline); color: var(--muted);
+  width: 32px; height: 32px; border-radius: var(--radius);
+  display: inline-flex; align-items: center; justify-content: center;
+}
+.icon-btn:hover { border-color: var(--danger); color: var(--danger); }
+
+.admin-empty { text-align: center; padding: 60px 20px; color: var(--muted); }
+.admin-empty i { font-size: 2rem; color: var(--gold); margin-bottom: 12px; display: block; }
+
+@media (max-width: 767px) {
+  .admin-sidebar { position: fixed; z-index: 50; height: 100vh; transform: translateX(-100%); transition: transform 0.25s ease; }
+  .admin-sidebar.open { transform: translateX(0); }
+  .admin-main { padding: 22px; }
+}

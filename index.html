@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Usman Dental Studio — Private Dental Care, Refined</title>
+<meta name="description" content="Aurelia Dental Studio — private suites, board-certified specialists, and a standard of dental care built for those who don't compromise.">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- Bootstrap 5 -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============ NAVBAR ============ -->
+<nav class="navbar navbar-expand-lg navbar-aurelia fixed-top" id="mainNav">
+  <div class="container-narrow">
+    <a class="navbar-brand navbar-brand-aurelia" href="#home">
+      <span class="mark">A</span> Usman Dental
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+      <ul class="navbar-nav align-items-lg-center">
+        <li class="nav-item"><a class="nav-link nav-link-aurelia" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link nav-link-aurelia" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link nav-link-aurelia" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link nav-link-aurelia" href="#pricing">Pricing</a></li>
+        <li class="nav-item"><a class="nav-link nav-link-aurelia" href="#contact">Contact</a></li>
+        <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+          <button class="btn btn-gold w-100" data-bs-toggle="modal" data-bs-target="#appointmentModal">Book Appointment</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header class="hero" id="home">
+  <div class="container-narrow">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6 hero-content">
+        <span class="eyebrow hero-eyebrow">Aurelia Dental Studio &middot; Est. 2011</span>
+        <h1 class="hero-headline">Dentistry,<br><em>Refined.</em></h1>
+        <p class="hero-sub">Private suites, board-certified specialists, and a standard of care built for those who don't compromise on their smile.</p>
+        <div class="hero-cta">
+          <button class="btn btn-gold" data-bs-toggle="modal" data-bs-target="#appointmentModal">Book Appointment</button>
+          <a class="btn btn-outline-ivory" href="#services">View Services</a>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="hero-figure">
+          <img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=900&q=80&auto=format&fit=crop" alt="Aurelia Dental Studio treatment suite">
+          <div class="tag">12 Specialists &middot; 500+ Smiles</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ============ SERVICES ============ -->
+<section class="section-pad" id="services">
+  <div class="container-narrow">
+    <span class="eyebrow">What We Do</span>
+    <h2 class="section-heading">Care built around your smile</h2>
+    <p class="section-lede">Six core disciplines, each led by a specialist rather than a generalist — because a filling and a facial reconstruction shouldn't be handled by the same rotation.</p>
+    <div class="divider-gold"></div>
+
+    <div class="row g-4 mt-2">
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card">
+          <div class="service-icon"><i class="bi bi-droplet-half"></i></div>
+          <h3>General Cleaning &amp; Exams</h3>
+          <p>Comprehensive hygiene visits with digital imaging, twice-yearly recall, and a plan tailored to your bite.</p>
+          <a class="service-link" href="#faq">Learn More <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card">
+          <div class="service-icon"><i class="bi bi-stars"></i></div>
+          <h3>Signature Teeth Whitening</h3>
+          <p>Our in-studio brightening protocol lifts up to eight shades in a single 90-minute session.</p>
+          <a class="service-link" href="#faq">Learn More <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card">
+          <div class="service-icon"><i class="bi bi-diagram-3"></i></div>
+          <h3>Braces &amp; Clear Aligners</h3>
+          <p>Traditional orthodontics and discreet clear-aligner therapy, mapped with 3D digital scans.</p>
+          <a class="service-link" href="#faq">Learn More <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card">
+          <div class="service-icon"><i class="bi bi-activity"></i></div>
+          <h3>Root Canal Therapy</h3>
+          <p>Microscope-assisted endodontics designed to save the natural tooth, with minimal downtime.</p>
+          <a class="service-link" href="#faq">Learn More <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card">
+          <div class="service-icon"><i class="bi bi-gem"></i></div>
+          <h3>Dental Implants</h3>
+          <p>Single-tooth to full-arch implant restoration, planned with guided-surgery precision.</p>
+          <a class="service-link" href="#faq">Learn More <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card">
+          <div class="service-icon"><i class="bi bi-emoji-smile"></i></div>
+          <h3>Cosmetic Veneers &amp; Smile Design</h3>
+          <p>Porcelain veneers and full smile-design consultations, previewed digitally before you commit.</p>
+          <a class="service-link" href="#faq">Learn More <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STATS (Signature Feature: Animated Counter) ============ -->
+<section class="stats-band">
+  <div class="container-narrow">
+    <div class="row g-4 text-center">
+      <div class="col-6 col-md-3">
+        <div class="stat-block">
+          <div class="stat-number"><span class="stat" data-target="500">0</span>+</div>
+          <div class="stat-label">Patients Cared For</div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="stat-block">
+          <div class="stat-number"><span class="stat" data-target="15">0</span>+</div>
+          <div class="stat-label">Years Experience</div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="stat-block">
+          <div class="stat-number"><span class="stat" data-target="98">0</span>%</div>
+          <div class="stat-label">Satisfaction Rate</div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="stat-block">
+          <div class="stat-number"><span class="stat" data-target="12">0</span></div>
+          <div class="stat-label">Specialists</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="section-pad" id="about">
+  <div class="container-narrow">
+    <div class="row g-5">
+      <div class="col-lg-7">
+        <span class="eyebrow">Our Studio</span>
+        <h2 class="section-heading">Fifteen years of quiet precision</h2>
+        <div class="divider-gold"></div>
+        <p class="section-lede" style="max-width:640px;">Usman Dental opened in 2011 with a single idea: dental care should feel considered, not clinical. Every suite is private, every specialist is board-certified in their discipline, and every plan is built around the patient in the chair — not a script.</p>
+        <ul class="values-list">
+          <li><i class="bi bi-check2"></i> Private treatment suites — no shared bays, no overlapping appointments</li>
+          <li><i class="bi bi-check2"></i> Specialist-led care across six disciplines, not generalist rotation</li>
+          <li><i class="bi bi-check2"></i> Digital scanning and imaging on every visit, no guesswork</li>
+          <li><i class="bi bi-check2"></i> Transparent, itemized treatment plans before any work begins</li>
+        </ul>
+      </div>
+      <div class="col-lg-5">
+        <div class="doctor-card">
+          <img src="assets/doctor-photo.jpg" alt="Dr. Usman Dastgir, Lead Prosthodontist">
+          <h4>Dr. Usman Dastgir, DDS</h4>
+          <span class="role">Lead Prosthodontist &amp; Founder</span>
+          <ul class="cert-list">
+            <li><i class="bi bi-award"></i> COMPUTER Sciencetist, Diplomate</li>
+            <li><i class="bi bi-award"></i> Comsats University Islamabad, Fellowship</li>
+            <li><i class="bi bi-award"></i> Invisalign Diamond Provider, 2019–Present</li>
+            <li><i class="bi bi-award"></i> Best of the City — Cosmetic Dentistry, 3x</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BEFORE / AFTER (bonus: draggable slider) ============ -->
+<section class="section-pad stripe-alt">
+  <div class="container-narrow text-center">
+    <span class="eyebrow">Results</span>
+    <h2 class="section-heading">See the difference</h2>
+    <p class="section-lede mx-auto">Drag the divider to compare a real Aurelia smile-design case, before and after treatment.</p>
+    <div class="divider-gold mx-auto"></div>
+
+    <div class="ba-wrap mt-4" id="baSlider">
+      <img class="ba-after" src="https://images.unsplash.com/photo-1581585095852-cfbdd0e2f9c9?w=900&q=80&auto=format&fit=crop" alt="Smile after cosmetic treatment at Aurelia Dental Studio">
+      <div class="ba-before-wrap" id="baBeforeWrap">
+        <img src="https://images.unsplash.com/photo-1519824145371-296894a0daa9?w=900&q=80&auto=format&fit=crop&sat=-100" alt="Smile before cosmetic treatment at Aurelia Dental Studio">
+      </div>
+      <div class="ba-handle" id="baHandle"><i class="bi bi-arrows-expand"></i></div>
+      <input type="range" min="0" max="100" value="50" class="ba-slider-input" id="baRange" aria-label="Drag to compare before and after">
+      <span class="ba-label before">Before</span>
+      <span class="ba-label after">After</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section class="section-pad" id="testimonials">
+  <div class="container-narrow">
+    <span class="eyebrow">Patient Stories</span>
+    <h2 class="section-heading">What our patients say</h2>
+    <div class="divider-gold"></div>
+
+    <div id="testimonialCarousel" class="carousel slide mt-4" data-bs-ride="carousel" data-bs-interval="5500">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p class="testimonial-quote">"I've never had a dental visit feel this calm. The suite was private and Dr. Ali explained every step."</p>
+                <div class="testimonial-meta">
+                  <div class="testimonial-avatar">R</div>
+                  <div><div class="testimonial-name">Rachel Ostrowski</div><div class="testimonial-treatment">Cosmetic Veneers</div></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p class="testimonial-quote">"My implant consultation included a full 3D scan before we even discussed cost. No pressure, just clarity."</p>
+                <div class="testimonial-meta">
+                  <div class="testimonial-avatar">D</div>
+                  <div><div class="testimonial-name">Ahmad</div><div class="testimonial-treatment">Dental Implants</div></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p class="testimonial-quote">"Root canal, and I didn't dread a single minute of it. The microscope work made the difference."</p>
+                <div class="testimonial-meta">
+                  <div class="testimonial-avatar">S</div>
+                  <div><div class="testimonial-name">Sofia Am&aacute;ndola</div><div class="testimonial-treatment">Root Canal Therapy</div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p class="testimonial-quote">"Eight shades brighter in one sitting. My wedding photos would have looked completely different without this."</p>
+                <div class="testimonial-meta">
+                  <div class="testimonial-avatar">M</div>
+                  <div><div class="testimonial-name">Maya Whitfield</div><div class="testimonial-treatment">Signature Whitening</div></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p class="testimonial-quote">"Clear aligners with a plan I could actually see mapped out digitally before starting. Worth every visit."</p>
+                <div class="testimonial-meta">
+                  <div class="testimonial-avatar">O</div>
+                  <div><div class="testimonial-name">Omar Farooqi</div><div class="testimonial-treatment">Clear Aligners</div></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p class="testimonial-quote">"The booking process alone was more organized than most hospitals I've been to. Everything on time, every visit."</p>
+                <div class="testimonial-meta">
+                  <div class="testimonial-avatar">L</div>
+                  <div><div class="testimonial-name">Liam Novak</div><div class="testimonial-treatment">General Care</div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRICING ============ -->
+<section class="section-pad stripe-alt" id="pricing">
+  <div class="container-narrow">
+    <span class="eyebrow">Investment</span>
+    <h2 class="section-heading">Transparent membership plans</h2>
+    <p class="section-lede">No surprise invoices. Choose the plan that matches how often you want us watching over your smile.</p>
+    <div class="divider-gold"></div>
+
+    <div class="row g-4 mt-2 align-items-stretch">
+      <div class="col-lg-4">
+        <div class="pricing-card">
+          <div class="pricing-tier">Essential</div>
+          <div class="pricing-price">$39<span>/mo</span></div>
+          <p class="pricing-note">For steady preventive care.</p>
+          <ul class="pricing-features">
+            <li><i class="bi bi-check2"></i> 2 cleanings &amp; exams / year</li>
+            <li><i class="bi bi-check2"></i> Annual digital X-rays</li>
+            <li><i class="bi bi-check2"></i> 10% off cosmetic treatments</li>
+            <li><i class="bi bi-check2"></i> Priority booking window</li>
+          </ul>
+          <button class="btn btn-outline-ivory w-100" data-bs-toggle="modal" data-bs-target="#appointmentModal">Choose Essential</button>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="pricing-card featured">
+          <div class="pricing-badge">Most Popular</div>
+          <div class="pricing-tier">Signature</div>
+          <div class="pricing-price">$89<span>/mo</span></div>
+          <p class="pricing-note">Our most-booked plan.</p>
+          <ul class="pricing-features">
+            <li><i class="bi bi-check2"></i> Everything in Essential</li>
+            <li><i class="bi bi-check2"></i> Quarterly hygiene visits</li>
+            <li><i class="bi bi-check2"></i> 1 whitening session / year</li>
+            <li><i class="bi bi-check2"></i> 20% off implants &amp; veneers</li>
+            <li><i class="bi bi-check2"></i> Direct line to your specialist</li>
+          </ul>
+          <button class="btn btn-gold w-100" data-bs-toggle="modal" data-bs-target="#appointmentModal">Choose Signature</button>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="pricing-card">
+          <div class="pricing-tier">Bespoke</div>
+          <div class="pricing-price">$189<span>/mo</span></div>
+          <p class="pricing-note">Full-service, concierge dentistry.</p>
+          <ul class="pricing-features">
+            <li><i class="bi bi-check2"></i> Everything in Signature</li>
+            <li><i class="bi bi-check2"></i> Unlimited hygiene visits</li>
+            <li><i class="bi bi-check2"></i> Annual smile-design review</li>
+            <li><i class="bi bi-check2"></i> 30% off major restorative work</li>
+            <li><i class="bi bi-check2"></i> After-hours emergency access</li>
+          </ul>
+          <button class="btn btn-outline-ivory w-100" data-bs-toggle="modal" data-bs-target="#appointmentModal">Choose Bespoke</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ (Signature Feature: Accordion) ============ -->
+<section class="section-pad" id="faq">
+  <div class="container-narrow">
+    <div class="row">
+      <div class="col-lg-7">
+        <span class="eyebrow">Questions</span>
+        <h2 class="section-heading">Frequently asked</h2>
+        <div class="divider-gold"></div>
+
+        <div class="accordion accordion-aurelia" id="faqAccordion">
+
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                Do I need a referral to book a specialist?
+              </button>
+            </h3>
+            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">No. Every new patient starts with a comprehensive consultation, and we route you directly to the right specialist — no referral or generalist gatekeeping required.</div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                How long does the signature whitening session take?
+              </button>
+            </h3>
+            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">Roughly 90 minutes in-studio, with results visible immediately. Most patients see a lift of six to eight shades in a single visit.</div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                Are clear aligners covered under any membership plan?
+              </button>
+            </h3>
+            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">Signature and Bespoke members receive a discount on clear-aligner therapy. We'll walk through exact pricing during your digital scan consultation.</div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                What happens during an implant consultation?
+              </button>
+            </h3>
+            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">A 3D scan, a bone-density review, and a guided-surgery plan built specifically around your jaw — all explained in plain terms before any commitment.</div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                Do you treat dental anxiety or nervous patients?
+              </button>
+            </h3>
+            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">Yes — private suites, sedation options, and a team trained specifically to slow down for anxious patients are standard here, not an add-on.</div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6">
+                What is your cancellation policy?
+              </button>
+            </h3>
+            <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">We ask for 24 hours' notice so we can offer your suite to another patient. Same-day cancellations may carry a small fee for specialist appointments.</div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq7">
+                Do you accept dental insurance?
+              </button>
+            </h3>
+            <div id="faq7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">We accept most major PPO plans and provide itemized documentation for out-of-network reimbursement on request.</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section-pad stripe-alt" id="contact">
+  <div class="container-narrow">
+    <span class="eyebrow">Visit Us</span>
+    <h2 class="section-heading">Get in touch</h2>
+    <div class="divider-gold"></div>
+
+    <div class="row g-5 mt-2">
+      <div class="col-lg-5">
+        <ul class="contact-info-list">
+          <li>
+            <i class="bi bi-geo-alt"></i>
+            <div><span class="label d-block">Address</span>214 Meridian Avenue, Suite 4, Faisalabad, Punjab</div>
+          </li>
+          <li>
+            <i class="bi bi-telephone"></i>
+            <div><span class="label d-block">Phone</span>+92 300 1234567</div>
+          </li>
+          <li>
+            <i class="bi bi-envelope"></i>
+            <div><span class="label d-block">Email</span>hello@aureliadental.example</div>
+          </li>
+          <li>
+            <i class="bi bi-clock"></i>
+            <div><span class="label d-block">Hours</span>Mon&ndash;Sat, 9:00 AM &ndash; 7:00 PM</div>
+          </li>
+        </ul>
+        <button class="btn btn-gold mt-3" data-bs-toggle="modal" data-bs-target="#appointmentModal">Book Appointment</button>
+      </div>
+      <div class="col-lg-7">
+        <iframe class="map-frame" src="https://www.google.com/maps?q=Faisalabad,Punjab,Pakistan&output=embed" loading="lazy" title="Aurelia Dental Studio location map" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ APPOINTMENT MODAL (Signature Feature) ============ -->
+<div class="modal fade modal-aurelia" id="appointmentModal" tabindex="-1" aria-labelledby="appointmentModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title font-display" id="appointmentModalLabel">Book an Appointment</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form id="appointmentForm" class="form-aurelia" novalidate>
+          <div class="mb-3">
+            <label for="patientName" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="patientName" placeholder="Jordan Ellis" required>
+          </div>
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <label for="phone" class="form-label">Phone</label>
+              <input type="tel" class="form-control" id="phone" placeholder="+92 300 1234567" required>
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="you@example.com" required>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <label for="apptDate" class="form-label">Preferred Date</label>
+              <input type="date" class="form-control" id="apptDate" required>
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="apptTime" class="form-label">Preferred Time</label>
+              <select class="form-select" id="apptTime" required>
+                <option value="" selected disabled>Select a slot</option>
+                <option>9:00 AM</option>
+                <option>10:30 AM</option>
+                <option>12:00 PM</option>
+                <option>2:00 PM</option>
+                <option>3:30 PM</option>
+                <option>5:00 PM</option>
+              </select>
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="serviceType" class="form-label">Service</label>
+            <select class="form-select" id="serviceType" required>
+              <option value="" selected disabled>Select a service</option>
+              <option>General Cleaning &amp; Exam</option>
+              <option>Signature Teeth Whitening</option>
+              <option>Braces &amp; Clear Aligners</option>
+              <option>Root Canal Therapy</option>
+              <option>Dental Implants</option>
+              <option>Cosmetic Veneers &amp; Smile Design</option>
+            </select>
+          </div>
+
+          <div id="formError" class="alert alert-danger d-none py-2 px-3 small" role="alert">
+            Please fill out every field with a valid phone number before submitting.
+          </div>
+          <div id="formSuccess" class="alert alert-success d-none py-2 px-3 small" role="alert">
+            Thank you — your request has been received. Our front desk will confirm by phone shortly.
+          </div>
+
+          <button type="submit" class="btn btn-gold w-100 mt-2">Request Appointment</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer-aurelia">
+  <div class="container-narrow">
+    <div class="row g-4">
+      <div class="col-lg-4">
+        <a class="navbar-brand-aurelia d-flex mb-3" href="#home"><span class="mark">A</span> Usman Dental</a>
+        <p class="text-muted small" style="color:var(--muted) !important; max-width:280px;">Private dental suites and specialist-led care, refined for those who don't compromise on their smile.</p>
+        <div class="social-icons mt-3">
+          <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="col-lg-2 col-6">
+        <h4 style="font-size:0.95rem;" class="mb-3">Studio</h4>
+        <ul class="footer-nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-6">
+        <h4 style="font-size:0.95rem;" class="mb-3">Support</h4>
+        <ul class="footer-nav">
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#" data-bs-toggle="modal" data-bs-target="#appointmentModal">Book Appointment</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-4">
+        <h4 style="font-size:0.95rem;" class="mb-3">Visit</h4>
+        <p class="small" style="color:var(--muted);">214 Meridian Avenue, Suite 4<br>Faisalabad, Punjab<br>+92 300 1234567</p>
+      </div>
+    </div>
+    <div class="footer-bottom d-flex flex-column flex-md-row justify-content-between">
+      <span>&copy; 2026 Usman Dental Studio. All rights reserved.</span>
+      <span>Built by Muhammad Usman Dastgir &middot; CloudExify Web Dev Internship, Month 2</span>
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Supabase JS client -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="js/supabase-config.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
