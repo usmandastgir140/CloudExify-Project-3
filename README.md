@@ -10,7 +10,7 @@
   2. FAQ Accordion — Bootstrap accordion, one item open at a time
   3. Appointment Booking Modal — full client-side form validation (name, phone, email, date, time, service)
   4. Before & After Draggable Comparison Slider — bonus signature feature, pointer-drag + range input, keyboard accessible
-- **Live Vercel Link:** _add after deploying, https://vercel.com/m-usman-dastgir/usman-dental-store
+- **Live Vercel Link:** _add after deploying, https://usman-dental-store.vercel.app/
 
 ## Tech Stack
 
